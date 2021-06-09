@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+*
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:10px;  /* fixe la marge extÃ©rieur a 0*/
+  padding:0px;  /* fixe la marge interieur a 0*/
+  
+
+}
+
+#titre1{
+	color : navy;
+	font-size: 20px;
+	text-align: center;
+}
+.titre2{
+	color : red;
+}
+a:visited  {
+  color: orange;
+}
+a:hover{
+	color: greenyellow;
+}
+ol {
+	color : chocolate;
+}
+.cs{
+	color : crimson;
+}
+.tm{
+	color : blueviolet;
+}
+li{
+	color : cornflowerblue;
+}
+#nom{
+	text-decoration: underline;
+}
+ol li{
+	list-style-type: lower-greek;
+}
+.gras {
+	color: dodgerblue;
+	font-weight: bold;
+}
+#matiere {
+	background-color: salmon;
+	display: none;
+}
+table {
+border: medium solid ;
+width: 100%;
+text-align: center;
+border-collapse: collapse;
+
+
+}
+td, th {
+border: thin solid ;
+}
+td {
+	background-color: #ffb85c;
+}
